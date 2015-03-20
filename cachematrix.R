@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Return a list (get, set, solve,...)
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -12,4 +13,5 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+## Check if the matrix is already solved, then return the inverse, otherwise solve it.
 }
