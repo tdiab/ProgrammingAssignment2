@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	## initialize the inverse (inv) of the matrix (x) 
         inv <- NULL
         
-        ##
+        ## Cache both variables , x = the matrix, and inv = the inverse 
 	set <- function(inverse){
 		x <<- inverse
 		inv <<- NULL
