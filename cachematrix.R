@@ -70,10 +70,10 @@ cacheSolve <- function(x, ...) {
 	## Retrieve the data for the original matrix from the list (x)
 	data <- x$get()
 
-	## Calculate the inverse of the original matrix
+	## Calculate the inverse of the original matrix, using the built-in solve function
 	inv <- solve(data)
 
-	## Set the inverse of the provided matrix
+	## Set the calculated inverse of the provided matrix
 	x$setinverse(inv)
 
 	## Return the calculated inverse
